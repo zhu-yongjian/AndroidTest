@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/technology_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/concern" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="105dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/technology_biaoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="武球王进球"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/technology_neirong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="西甲第26轮，西班牙人主场迎战巴拉多利德，在主队2-1领先的情况下，第65分钟发生的一幕，让所有中国球迷疯狂了..." />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_height="15dp">
+
+        <TextView
+            android:id="@+id/technology_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:text="中国"
+            android:textColor="#AAAAAA"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/technology_stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:text="生试阶段"
+            android:textColor="#AAAAAA"
+            android:textSize="12dp" />
+    </RelativeLayout>
+</RelativeLayout>
