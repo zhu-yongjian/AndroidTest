@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical">
+    <include layout="@layout/homepage_search"/>
+    <RelativeLayout
+        android:id="@+id/gao"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/li"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="李德毅"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="北京邮电大学 | 计算机学院"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:text="研究方向/领域：云计算，服务型人工智能，智能驾驶，智能控制"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/wu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="吴恩达"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="斯坦福大学 | 计算机科学系"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:text="研究方向/领域：机器学习，人工智能，在线教育"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/zhou"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="周志华"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="南京大学 | 人工智能学院"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:text="研究方向/领域：主要从事人工智能、机器学习、数据挖掘等领域的研究工作"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/shi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="时坚"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="工程师 | 其他"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:text="研究方向/领域：核工程材料，精密铸造，阻尼合金，屏蔽材料"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/tao"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="陶梅霞"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="上海交通大学 | 电子工程系教授"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="研究方向/领域：协作与中继通信，无线资源分配，物理层安全，MIMO 技术"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/zhang"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="张旭"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="其他 | 总工程师"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:text="研究方向/领域：基础合金材料制造领域，改变国内合金材料制造瓶颈难题"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/li" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="李德毅"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/dianjiyuyue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="35dp"
+            android:textColor="#0084ff"
+            android:text="点击预约"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#000"
+        android:lineSpacingExtra="8dp"
+        android:text="指挥自动化和人工智能专家。
+        出生于江苏省泰县（现江苏省泰州市姜堰区）。现任中国电子系统工程研究所副所长，国家自然科学基金委员会信息科学部主任，软件工程国家重点实验室学术委员会主任，信息科学与技术国家实验室副理事长，中国电子学会副理事长，中国人工智能学会副理事长。与其兄李德仁同为中国工程院院士。
+        2018年12月12日，李德毅加入长安汽车院士专家工作站，致力于智能驾驶技术研究。
+        李德毅院士在国际上最早提出“控制流—数据流”图对理论，描述时间与空间的关联性，给出了基本图元、图对、连接法则、触发机制、设计语言等一整套实现方法，用于复杂系统的结构优化。"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/jie"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
